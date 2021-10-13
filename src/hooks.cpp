@@ -30,7 +30,6 @@ namespace GameHook
         }
     }
 
-    bool IsSkillHookEnabled = true;
     bool CreateSkillReqHook()
     {
         skillReqAddress = pScanner.PerformModuleScan(bytePattern, patternLength, patternOffset, moduleName);
